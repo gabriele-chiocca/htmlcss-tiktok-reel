@@ -134,3 +134,55 @@ img {
 	align-self: center;
 	
 }
+
+
+/* Struttura Navbar Inferiore */
+
+.containerflex {
+	display: flex;
+}
+
+.container-navbarinferiore {
+	display: flex;
+	justify-content: space-between;
+	line-height: 60px;
+	flex: 1 1 0;
+	background-color: black;
+	color: white;
+}
+
+/* Reset ul */
+
+ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+/*
+.icondisplay {
+	display: flex;
+
+}
+
+.content-navinferiore {
+	justify-items: center;
+}
+
+.icona-centrale {
+	align-self: center;
+}
+	*/
+
+.container-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 90px;
+	background-color: black;
+}	
+
+.content-footer {
+	text-align: center;
+}
