@@ -82,7 +82,22 @@ da rimuovere una volta concluso
 
 /* --------------------- */
 
+.reel-header {
+	align-content: center;
+	margin: auto 16px;
+}
+
 .navheader-container{
  display: flex;
- 
+ justify-content: space-between;
+ color: white;
+ align-items: center;
+}
+
+.navheader-contents {
+	display: flex;
+}
+
+.navheader-content {
+	margin: 8px;
 }
