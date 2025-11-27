@@ -94,7 +94,7 @@ img {
 
 .reel-header {
 	align-content: center;
-	margin: auto 16px;
+	margin: 24px;
 }
 
 .navheader-container{
@@ -115,12 +115,16 @@ img {
 
 /* Struttura Sidebar */
  
+.sidebar {
+	top: 35%;
+}
+
 .contents-sidebar {
 
 	display: flex;
     color: white;
     flex-direction: column;
-    gap: 16px;
+    gap: 24px;
     flex-wrap: wrap;
     align-content: flex-end;
 }
@@ -132,7 +136,16 @@ img {
 .profile-image {
 	width: 25%;
 	align-self: center;
-	
+	position: relative;
+}
+
+.seguiprofilo {
+	position: absolute;
+	top: 25px;
+}
+
+.icon-structure {
+	font-size: 1.8rem;
 }
 
 
@@ -160,20 +173,7 @@ padding: 0;
 margin: 0;
 }
 
-/*
-.icondisplay {
-	display: flex;
-
-}
-
-.content-navinferiore {
-	justify-items: center;
-}
-
-.icona-centrale {
-	align-self: center;
-}
-	*/
+/* Footer */
 
 .container-footer {
 	display: flex;
