@@ -82,6 +82,16 @@ da rimuovere una volta concluso
 
 /* --------------------- */
 
+
+/* Reset css */
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Navbar Superiore */
+
 .reel-header {
 	align-content: center;
 	margin: auto 16px;
@@ -100,4 +110,27 @@ da rimuovere una volta concluso
 
 .navheader-content {
 	margin: 8px;
+}
+
+
+/* Struttura Sidebar */
+ 
+.contents-sidebar {
+
+	display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.content-sidebar {
+	text-align: center;
+}
+
+.profile-image {
+	width: 25%;
+	align-self: center;
+	
 }
